@@ -1,0 +1,26 @@
+.button {
+    color: #0a1a2f;
+    font-size: 2rem;
+    border: 2px solid #0a1a2f;
+    background-color: transparent;
+    
+  }
+
+  @font-face {
+    font-family: notoExtraLight;
+    src: url(./fuentes/NotoSans-ExtraLight.ttf); }
+  
+  @font-face {
+    font-family: notoLight;
+    src: url(./fuentes/NotoSans-Light.ttf); }
+
+    @font-face {
+      font-family: notoRegular;
+      src: url(./fuentes/NotoSans-Regular.ttf); }
+  
+      @font-face {
+        font-family: notoSemibold;
+        src: url(./fuentes/NotoSans-SemiBold.ttf); }
+  
+
+
