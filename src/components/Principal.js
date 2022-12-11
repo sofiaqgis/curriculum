@@ -5,15 +5,17 @@ import Navigation from './NavBar';
 import SobreMi from './Sobremi';
 import './style.css';
 
+
 function Portada() {
     return(
-        <>
+    <div key={0}>
         <Navigation/>
         <SobreMi/>
         <Cursos/>
         <AlgunosTrabajos/>
         <Contacto/>
-        </>
+        
+    </div>  
     );
 
 }

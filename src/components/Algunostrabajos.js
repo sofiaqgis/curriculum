@@ -24,13 +24,13 @@ function AlgunosTrabajos() {
          
           <Col>
           <Card.Title id='trabajos' style={{ color: 'white', marginBottom: '3rem', fontFamily: 'notoRegular', fontSize: '1.3em', marginTop:'1.5rem'}}>Landing Page</Card.Title>
-          <Card.Text style={{color: 'white', fontFamily: 'notoLight', fontSize: '1em',  marginTop:'.4rem'}}>
+          <div style={{color: 'white', fontFamily: 'notoLight', fontSize: '1em',  marginTop:'.4rem'}}>
           <ListGroup as="ol" style={{textAlign: 'center'}} numbered>
       <ListGroup.Item style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}} as="li">HTML</ListGroup.Item>
       <ListGroup.Item  style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}} as="li">CSS</ListGroup.Item>
       <ListGroup.Item  style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}} as="li">Javascript</ListGroup.Item>
     </ListGroup>
-          </Card.Text>
+          </div>
           <Row  style={{textAlign: 'center'}}>
           <a href="https://ochocuentos.com/"><Button variant="light" style={{padding: '.7rem', marginTop:'3rem', borderRadius: '0.2rem', fontFamily: 'notoRegular', background: '#33ffcc', /*  ccff00 */ border: '2px solid #33ffcc' , color: '#0a1a2f'}}>Ir al sitio</Button></a>
           </Row>
@@ -47,14 +47,14 @@ function AlgunosTrabajos() {
          
           <Col>
           <Card.Title id='trabajos' style={{ color: 'white', marginBottom: '3rem', fontFamily: 'notoRegular', fontSize: '1.3em', marginTop:'1.5rem'}}>React App</Card.Title>
-          <Card.Text style={{color: 'white', fontFamily: 'notoLight', fontSize: '1em',  marginTop:'.4rem'}}>
+          <div style={{color: 'white', fontFamily: 'notoLight', fontSize: '1em',  marginTop:'.4rem'}}>
           <ListGroup style={{textAlign: 'center'}} as="ol" numbered>
       <ListGroup.Item style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}}  as="li">HTML</ListGroup.Item>
       <ListGroup.Item style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}}  as="li">CSS</ListGroup.Item>
       <ListGroup.Item style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}}  as="li">Javascript</ListGroup.Item>
       <ListGroup.Item style={{color: 'white', fontFamily: 'notoRegular', background: 'transparent', fontSize: '1.1rem'}}  as="li">React JS</ListGroup.Item>
     </ListGroup>
-          </Card.Text>
+          </div>
           <Row  style={{textAlign: 'center'}}>
           <a href="http://clonascompras.me/"><Button variant="info" style={{ padding: '.7rem', marginTop: '3rem', borderRadius: '0.2rem', fontFamily: 'notoRegular',background: '#33ffcc', border: '2px solid #33ffcc', color: '#0a1a2f'}}>Ir al sitio</Button></a>
           </Row>

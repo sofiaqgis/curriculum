@@ -15,7 +15,7 @@ return (
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
             <Card.Title id='#curriculum'>Sofia Mato</Card.Title>
             <Card.Title>Contacto:</Card.Title>
-            <Card.Text>
+            <div key={0}>
             <ListGroup>
                 <ListGroup.Item>
                     Dirección: Sarmiento 4442, Ciudad Autónoma de Buenos Aires
@@ -27,12 +27,12 @@ return (
                     Correo: sofia_mato@hotmail.com
                     </ListGroup.Item>
             </ListGroup>
-            </Card.Text>
+            </div>
 
         </Card>
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
         <Card.Title>Aptitudes:</Card.Title>
-        <Card.Text>
+        <div key={1}>
         <ListGroup>
                 <ListGroup.Item>
                     Capacidad organizativa y cooperativa
@@ -48,13 +48,13 @@ return (
                 </ListGroup.Item>
             
             </ListGroup>
-        </Card.Text>
+        </div>
         </Card>
         </Col>
         <Col>
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
         <Card.Title>Formación académica:</Card.Title>
-        <Card.Text>
+        <div key={2}>
         <ListGroup>
                 <ListGroup.Item>
                     Carrera de Desarrollo Front End React Coderhouse
@@ -69,7 +69,7 @@ return (
             
             </ListGroup>
 
-        </Card.Text>
+        </div>
         </Card>
         </Col>
 
@@ -77,14 +77,14 @@ return (
 
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
             <Card.Title>Experiencia laboral:</Card.Title>
-            <Card.Text>
+            <div key={3}>
             <ListGroup>
                 <ListGroup.Item>
                     Profesora Gobierno de la Ciudad
                 </ListGroup.Item>
    
             </ListGroup>
-            </Card.Text>
+            </div>
         </Card>
 
 
@@ -92,7 +92,7 @@ return (
         <Col>
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
             <Card.Title>Idiomas:</Card.Title>
-            <Card.Text>
+            <div key={4}>
 
             <ListGroup>
                 <ListGroup.Item>
@@ -108,14 +108,14 @@ return (
             </ListGroup>
 
 
-            </Card.Text>
+            </div>
         </Card>
         </Col>
 
         <Col>
         <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
         <Card.Title>Certificaciones:</Card.Title>
-        <Card.Text>
+        <div key={5}>
         <ListGroup>
                 <ListGroup.Item>
                     QGIS III
@@ -135,7 +135,7 @@ return (
          
           
             </ListGroup>
-        </Card.Text>
+        </div>
         </Card>
         
         </Col>

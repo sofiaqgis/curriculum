@@ -10,7 +10,7 @@ function Cursos() {
 
 
     return(
-        <Card style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
+        <Card key={2} style={{ width: '100%', padding: '2rem', border: 'none', background: '#0a1a2f', borderRadius: '0' }}>
         <Card.Body>
         <Card.Title style={{ color: 'white',  fontFamily: 'notoRegular', fontSize: '1.5em'}} id='cursos'>Cursos</Card.Title>
         <Row xs={2} sm={2} md={3} lg={4} style={{marginTop: '2rem', textAlign: 'center'}} className="g-4">
@@ -19,7 +19,7 @@ function Cursos() {
     DataFromBD.map(item => ( 
       <>
       <Col className="columna-4">
-       <Curso item={item}/> 
+       <Curso key={item.id} item={item}/> 
       </Col>
       </>
     
